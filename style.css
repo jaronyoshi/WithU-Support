@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  color: var(--Text);
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0 100px;
+  background-color: var(--Background);
+}
+
+:root {
+  --Background: #FAFAFA;
+  --Pastelgreen: #B8EA9B;
+  --Darkgreen:#083F08;
+  --Yellow: #F3D160;
+  --Text:#1D211B;
+  --Secondarytext:#8F8F8F;
+  --Cards:#DADED7;
+  --Cardsgreen:#1D211B;
+  --Lightcard:#DADED7;
+  --bodylarge: 18px;
+  --bodyregular: 16px;
+  --bodysmall: 14px;
+  --bodyxsmall: 12px;
+  --buttonsize:18px;
+  --boldsubtitle:20px;
+  --boldsubtitle2:16px;
+}
+
+/*TYPOGRAPHY ----->>> Need to define heading font size */ 
+
+h1, h2, h3, h4 {
+  font-family: "gelica", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+h5 {
+  font-family: Inter;
+  size: 18px;
+  font-weight:500;
+}
+
+
+/* --  NAV  --  */
+
+nav {
+  width: 100%;
+  height: 64px;
+  background: var(--Pastelgreen);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+nav img {
+  background: var(--Pastelgreen);
+}
+
+header {
+  margin: 0 -100px;
+}
