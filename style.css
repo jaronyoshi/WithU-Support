@@ -8,7 +8,8 @@ html {
 }
 
 body {
-  margin: 0 100px;
+  margin: 0 24px;
+  /* margin: 0 100px;  keep this for media queries  --->>>  media query is for desktop version*/
   background-color: var(--Background);
 }
 
@@ -66,3 +67,160 @@ nav img {
 header {
   margin: 0 -100px;
 }
+
+.info-container {
+  width: 344px;
+  border-radius: 8px;
+  background: #F3F0E4;
+  color: #4D3D08;
+  position: relative;
+  padding: 16px;
+  margin-top: 32px;
+}
+
+.info-container img {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.info-description {
+  font-family: inter;
+  font-size: 12px;
+  margin: 0;
+  line-height: 1.4;
+  padding-left: 36px;
+  padding-right: 60px;
+}
+
+.confirmation {
+  font-family: inter;
+  font-size: 10px;
+  margin: 0;
+  text-decoration: underline;
+  cursor: pointer;
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+
+.profile-card {
+  height: 107px;
+  width: 343px;
+  border: solid 1px;
+  border-radius: 8px;
+  border-color: var(--Lightcard);
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+margin-top: 28px;
+}
+
+.card-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card h4 {
+  margin-bottom: 4px;
+}
+
+
+.profile-card p{
+  font-family: inter;
+  font-size: var(--bodyregular);
+  color: var(--Secondarytext);
+  text-decoration: underline;
+  margin-top: 0px;
+}
+
+
+.card-name {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+
+
+.overview-card {
+  height: 108px;
+  background: var(--Lightcard);
+  border-radius: 8px;
+  width: 343px;
+  padding-left: 16px;
+  margin-top: 28px;
+}
+
+.nr1 {
+  align-self: flex-start;
+}
+
+.card-title {
+  align-self: flex-start;
+  font-family: inter;
+  font-size: var(--bodyregular);
+  padding-left: 20px;
+  margin-bottom: 4px;
+}
+
+.card {
+  height: 131px;
+  width: 343px;
+  background: var(--Lightcard);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.card p {
+  font-family: inter;
+  font-size: var(--bodysmall);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.symptomsp {
+  font-family: inter;
+  font-size: var(--bodyregular);
+}
+
+.symptoms-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.symptom-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.symptom-item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 8px;
+}
+
+.symptom-item p {
+  margin: 0;
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+}
+
+.p2 {
+  font-family: inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
