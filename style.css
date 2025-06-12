@@ -213,7 +213,7 @@ margin-top: 28px;
 
 .symptom-item p {
   margin: 0;
-  font-size: 14px;
+  font-size: 12px;
   font-family: Inter, sans-serif;
 }
 
@@ -223,4 +223,142 @@ margin-top: 28px;
   font-weight: 500;
 }
 
+.help-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(1, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+gap: 16px;
+margin-top: 20px;
+}
 
+.help-container p {
+  font-family: inter;
+  font-size: 12px;
+}
+
+.help-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(1, 1fr);
+grid-column-gap: 24px;
+grid-row-gap: 0px;
+}
+
+.contact-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-items p  {
+  font-family: inter;
+  font-size: 12px;
+}
+
+.support-description {
+  font-family: inter;
+  font-size: 14px;
+  margin-top: 32px;
+}
+
+.now-what {
+  align-self:flex-start;
+  margin-top: 164px;
+}
+
+.based {
+  font-family: inter;
+  font-size: var(--bodysmall);
+}
+
+.you {
+    font-family: inter;
+  font-size: var(--bodysmall);
+  align-self: flex-start;
+  margin-bottom: 32px;
+}
+
+.check-out {
+  font-family: inter;
+  font-size: var(--bodylarge);
+  color: var(--Darkgreen);
+  text-decoration: underline;
+  margin-bottom: 200px;
+}
+
+/*  --  Footer  --  */
+
+footer {
+  background-color: #DADED7;
+  margin-left: -24px;
+  margin-right: -24px;
+  padding-top: 44px;
+}
+
+
+.subscribe {
+  font-family: inter;
+  font-size: var(--bodyregular);
+  margin-bottom: 8px;
+  margin-left: 40px;
+}
+
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter-container {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.email-input {
+  flex: 1;
+  padding: 12px 16px;
+  border: none;
+  outline: none;
+  font-family: Inter;
+  font-size: var(--bodyregular);
+  background-color: transparent;
+}
+
+.subscribe-button {
+  padding: 12px 24px;
+  border: none;
+  background-color: var(--Pastelgreen);
+  color: var(--Darkgreen);
+  font-family: Inter;
+  font-size: var(--bodyregular);
+  cursor: pointer;
+}
+
+.footer-content {
+  font-family: inter;
+  margin-top: 74px;
+  margin-left: 24px;
+}
+
+.footer-branding {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.footer-branding p {
+  font-family: inter;
+  font-size: var(--bodysmall);
+  color: #5D5D5D;
+}
